@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+ int a,b;
+ printf("Enter two numbers two swap\n");
+ scanf("%d %d",&a,&b);
+ a=a+b;             //logic with temporary variable is: t=a;     t->temporary variable
+ b=a-b;                                         //      a=b;
+ a=a-b;                                         //      b=t;
+ printf("After swapping the two numbers are: %d %d\n",a,b);
+}
